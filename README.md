@@ -32,3 +32,10 @@ We welcome contributions and feedback to enhance the project further. Feel free 
 Refer to the project documentation for detailed instructions on usage, setup, and contribution guidelines.
 
 🌟 **Let's embark on this exciting journey together towards smarter fruit classification!** 🍇🍍🍓
+
+Links:
+Paper: https://www.sciencedirect.com/science/article/pii/S2352340921009616
+Dataset: https://data.mendeley.com/datasets/b6fftwbr2v/1
+Kaggle: https://www.kaggle.com/datasets/shashwatwork/fruitnet-indian-fruits-dataset-with-quality
+Data Augmentation: https://docs.google.com/presentation/d/1HtSB2FFoCKnJDAe1yfJv4pHHk0kIDSYTqGXeDttJ8zE/edit?usp=sharing
+
