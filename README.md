@@ -1,8 +1,34 @@
-# Data-Augmentation-and-Classification-of-FruitNet
+🌟 **Welcome to Data-Augmentation-and-Classification-of-FruitNet!** 🍎🍌🍊
 
-In today's rapid tech-driven world, the Human Interaction Machine marks a significant leap into the digital age. This innovation empowers systems to mimic human cognition, making decisions and taking actions with remarkable accuracy and efficiency. This evolution is propelling industries towards Industry 4.0, where intelligent systems revolutionize business and production. These machines operate tirelessly, ensuring flawless performance across diverse domains, from manufacturing to healthcare. As we embrace this transformation, the possibilities for innovation are endless, promising a future where intelligent machines drive progress and prosperity.
-My project aim is to develop a robust classification algorithm tailored for fruit data, facilitating accurate categorization based on quality parameters. Through meticulous classification, the algorithm adeptly discerns the quality of fruits, providing invaluable support in categorization efforts. With precision and reliability, it reliably identifies the category to which each fruit belongs, enhancing efficiency and decision-making processes within the domain.
-The dataset we are using here is FruitNet dataset which a wide range of collection of Indian fruit images and they are provided with labels. This dataset is preferred due to its wide range of categories and for its number of images per category. This dataset also holds a varied category of quality which makes it more preferable to perform a real time fruit classification task. There are many other datasets available with more varied fruits and having different categories of fruit. Some of them are: Fruit-360, Date Fruit Datasets, Fruit recognition and etc. Here we considered this because of its wide variety, good image quality and also tropical fruits list is provided.
-However this dataset has a problem and that is the number of fruit for each category is very uneven. While having balanced datasets (equal number of images per category) can sometimes simplify model training and improve performance, it is not a strict requirement and totally depends on the amount of variation whether the numbers are significant or not. However, here the imbalance is very significant for some categories like some having 1000+ whereas some have 200+.
-Now talking about the models we have considered are a Convolutional Neural Network which has a very simplified structure of three convolution and max pooling layer connecting to fully connected layer. In comparison we have considered the ResNet5o which is pretrained and we performed transfer learning with weights of ImageNet and finally fully connected layer that I have customised is attached. Similarly, we took Efficient Net B5 which is also pre-trained on ImageNet and finally a fully connected layer that I have customised is attached. The models are then fine tuned. A comparison graph is displayed with their performance on the FruitNet dataset will be discussed later on. 
-Furthermore, we have considered the Knowledge Distillation in making the best fitting model as our teacher and the worst performing model as our student. By doing this how much efficiency can the student can gain with the implementation of KD. We saw a major leap of near about 20%, thus making it a useful way to integrate such architecture over the edge devices to perform with less computation resource and time. 
+In today's tech-driven world, the Human Interaction Machine signifies a leap into the digital age. This innovation mimics human cognition, driving industries towards Industry 4.0. Intelligent systems revolutionize business and production, ensuring flawless performance across diverse domains.
+
+🎯 **Project Aim:**
+Develop a robust classification algorithm for fruit data, facilitating accurate categorization based on quality parameters. This algorithm discerns fruit quality, aiding categorization efforts, and enhancing decision-making processes.
+
+📚 **Dataset:**
+We utilize the FruitNet dataset, comprising a wide range of Indian fruit images with labels. Its varied categories and quality parameters make it ideal for real-time fruit classification tasks.
+
+📊 **Dataset Imbalance:**
+Notably, some fruit categories suffer from significant imbalance, with varying numbers of images per category. This imbalance poses challenges but doesn't necessarily impede model training and performance.
+
+🧠 **Models Considered:**
+1. **Convolutional Neural Network (CNN):** Simple structure with three convolution and max-pooling layers, connected to fully connected layers.
+2. **ResNet50:** Pretrained on ImageNet, fine-tuned with custom fully connected layers.
+3. **EfficientNet B5:** Pretrained on ImageNet, fine-tuned with custom fully connected layers.
+
+🔍 **Comparison and Transfer Learning:**
+We compare the performance of these models on the FruitNet dataset. Transfer learning with pretrained models significantly boosts performance.
+
+📈 **Knowledge Distillation (KD):**
+Implementing KD, we use the best-fitting model as the teacher and the worst-performing model as the student. This process enhances the student's efficiency by approximately 20%, making it suitable for edge devices with limited computational resources.
+
+🚀 **Conclusion:**
+Data augmentation and classification of FruitNet offer promising insights into fruit quality assessment and categorization. By leveraging advanced techniques like transfer learning and knowledge distillation, we strive towards efficient and accurate fruit classification systems.
+
+🙌 **Contributions and Feedback:**
+We welcome contributions and feedback to enhance the project further. Feel free to explore, contribute, and provide your valuable insights!
+
+📝 **Documentation and Usage:**
+Refer to the project documentation for detailed instructions on usage, setup, and contribution guidelines.
+
+🌟 **Let's embark on this exciting journey together towards smarter fruit classification!** 🍇🍍🍓
